@@ -1,6 +1,7 @@
 let numero1;
 let numero2;
 console.log("ingrese un numero");
+console.log("gracias");
 numero1 = prompt();
 numero2 = prompt();
 let suma = parseInt(numero1) + parseInt(numero2);
