@@ -16,6 +16,7 @@ class Admin extends User{
 	saludar(){
 		super.saludar();
 		console.log("Bienvenido al panel del administrador");
+		console.log("Solo kiero mi Commit XD XD :V");
 	}
 }
 
