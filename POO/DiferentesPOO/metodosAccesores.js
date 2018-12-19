@@ -13,9 +13,8 @@ class Usuario{
 	}
 }
 
-
 let user = new Usuario("Javier");
 
-user.name = "Santa";
+user.name = "santa";
 
 console.log(user.name);
