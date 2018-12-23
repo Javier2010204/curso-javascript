@@ -16,4 +16,10 @@ function tercerCalculo(numero){
 	});
 }
 
+function cuartaPromesa(numero){
+	return new Promise((resolve,reject)=>{
+		setTimeout(resolve, 40000, 'cuarta promesa');
+	});
+}
+
 calcular().then(segundoCalculo).then(tercerCalculo).then(console.log);
